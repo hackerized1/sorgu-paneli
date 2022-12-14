@@ -14,7 +14,7 @@ if(isset($_POST['no'],$_POST['ad'],$_POST['soyad'],$_POST['tel'],$_POST['babaadi
     $babaadi=$_POST['babaadi'];
     $anneadi=$_POST['anneadi'];
     
-    $sql = "SELECT * FROM bilgiler WHERE no='$tcno' AND ad='$ad' AND soyad='$soyad' AND tel='$tel' AND babaadi='$babaadi' AND anneadi='$anneadi'";
+    $sql = "SELECT * FROM bilgiler WHERE no='$no' AND ad='$ad' AND soyad='$soyad' AND tel='$tel' AND babaadi='$babaadi' AND anneadi='$anneadi'";
     $result = mysqli_query($conn, $sql);
     if (mysqli_num_rows($result) > 0) {
         // output data of each row
