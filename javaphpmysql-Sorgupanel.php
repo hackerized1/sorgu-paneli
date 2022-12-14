@@ -1,4 +1,4 @@
-
+// no yazan kısımları siz kendiniz düzenlersiniz silivri ice bro
 // PHP Kodu
 <?php
 $conn = mysqli_connect("localhost", "yourusername", "yourpassword", "yourDatabase");
